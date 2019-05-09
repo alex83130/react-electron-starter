@@ -17,7 +17,7 @@
     "electron": "electron .",
     "electron-prod": "npm run build && npm run electron",
     "electron-dev": "cross-env ELECTRON_START_URL=http://localhost:3000 electron .",
-    "electron-exe" : "electron-packager ./ app-test --ignore=/node_modules --ignore=/src --platform=win32 --arch=x64 --overwrite"
+    "electron-exe" : "electron-packager ./ app-name --ignore=/node_modules --ignore=/src --platform=win32 --arch=x64 --overwrite"
   },
   "eslintConfig": {
     "extends": "react-app"

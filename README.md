@@ -46,6 +46,10 @@ Generate build folder && launches electron instance in production mode<br>
 
 Launches electron instance in developement mode (with watcher)<br>
 
+### `npm electron-exe`
+
+Generate exe to window app<br>
+
 ## Learn More
 
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
