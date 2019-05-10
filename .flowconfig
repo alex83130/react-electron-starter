@@ -1,0 +1,17 @@
+[ignore]
+.*/node_modules/.*
+.*/build/*
+.*/src/serviceWorker\.js
+.*/src/index\.js
+.*/electron-starter\.js
+.*\.test\.js
+
+[include]
+
+[libs]
+
+[lints]
+
+[options]
+
+[strict]

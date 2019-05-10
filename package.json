@@ -5,6 +5,7 @@
   "dependencies": {
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
+    "react-router-dom": "^5.0.0",
     "react-scripts": "3.0.1"
   },
   "homepage": "./",
@@ -17,7 +18,9 @@
     "electron": "electron .",
     "electron-prod": "npm run build && npm run electron",
     "electron-dev": "cross-env ELECTRON_START_URL=http://localhost:3000 electron .",
-    "electron-exe": "electron-packager ./ app-name --ignore=/node_modules --ignore=/src --platform=win32 --arch=x64 --overwrite"
+    "electron-exe": "electron-packager ./ app-name --ignore=/node_modules --ignore=/src --platform=win32 --arch=x64 --overwrite",
+    "flow": "flow",
+    "flow:check": "flow check ./src"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -37,6 +40,8 @@
   "devDependencies": {
     "cross-env": "^5.2.0",
     "electron": "^5.0.1",
-    "electron-packager": "^13.1.1"
+    "electron-packager": "^13.1.1",
+    "flow-bin": "^0.98.1",
+    "flow-typed": "^2.5.1"
   }
 }
