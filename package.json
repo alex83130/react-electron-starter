@@ -5,8 +5,11 @@
   "dependencies": {
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
+    "react-redux": "^7.0.3",
     "react-router-dom": "^5.0.0",
-    "react-scripts": "3.0.1"
+    "react-scripts": "3.0.1",
+    "redux": "^4.0.1",
+    "redux-thunk": "^2.3.0"
   },
   "homepage": "./",
   "main": "./electron-starter.js",
@@ -43,6 +46,7 @@
     "electron-packager": "^13.1.1",
     "flow-bin": "^0.98.1",
     "flow-typed": "^2.5.1",
-    "node-sass": "^4.12.0"
+    "node-sass": "^4.12.0",
+    "redux-devtools-extension": "^2.13.8"
   }
 }
