@@ -1,3 +1,5 @@
+//@flow
+
 import { UI_START_LOADING, UI_STOP_LOADING } from "./actionTypes";
 
 export const uiStarLoading = () => {

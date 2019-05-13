@@ -1,9 +1,12 @@
-// Store/Reducers/avatarReducer.js
+// @flow
 import { TEST_ACTION } from '../Actions/actionTypes'
 
-const initialState = { testParam: "" }
+type State = {
+    +testParam: string
+};
+const initialState:State = { testParam: "" }
 
-const  commonReducer = (state = initialState, action) => {
+const  commonReducer = (state:State = initialState, action) => {
     let nextState
     switch (action.type) {
         case TEST_ACTION :
